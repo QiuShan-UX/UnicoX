@@ -110,18 +110,21 @@ local oldHttpGet
 HttpGet = function(...)
     return "Cnm"
 end
-local window = library:new("UnicoX┋被遗弃")
+local window = library:new("UnicoX | 被遗弃")
 
-local Page = window:Tab("主页",'16060333448')
-local Page1 = window:Tab("主要功能",'16060333448')
-local Page2 = window:Tab("透视功能",'16060333448')
+local Page = window:Tab("主页",'126541000196688')
+local Page1 = window:Tab("主要功能",'126541000196688')
+local Page2 = window:Tab("透视功能",'126541000196688')
+local Page3 = window:Tab("其他功能",'126541000196688')
 
 local info = Page:section("作者信息",true)
 local Main = Page1:section("主要功能",true)
 local ESP = Page2:section("透视功能",true)
+local Other = Page3:section("其他功能",true)
 
 info:Label("主作者:秋山 副作者:小徐")
-info:Label("江暖阳跑路你妈了个逼,快点去吃你妈的逼")
+info:Label("江暖阳跑路你妈了个逼,快点去吃你妈的逼,我操你妈的,我都替你妈感到丢脸")
+info:Label("UnicoX官方主群:295683557")
 
 Main:Toggle("自动修电机", "", false, function(state)
    if state then
@@ -298,3 +301,5 @@ ESP:Toggle("透视工具", "", false, function(state)
         end
     end
 end)
+
+Other:Toggel("情云被遗弃")
