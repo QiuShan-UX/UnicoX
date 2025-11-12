@@ -1,6 +1,6 @@
-local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/JsYb666/UI/refs/heads/main/%E5%BD%A9%E8%99%B9.lua"))()
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/THDZEP/Blue-blue-blue/refs/heads/main/hbvc"))()
 
-local Window = library:new("UnicoX Hub")
+local Window = library:new("UnicoX")
 
 local krx = Window:Tab("信息",'126541000196688')
 local bin = krx:section("玩家信息",true)
@@ -104,13 +104,14 @@ bin:Label("你的用户名:"..game.Players.LocalPlayer.Name)
 bin:Label("你的注入器:"..identifyexecutor())
 bin:Label("服务器id:"..game.GameId)
 
-about:Label("UnicoX Hub")
-about:Label("作者QQ:1295411667")
+about:Label("UnicoX HUB")
 about:Label("主群:295683557")
-about:Label("作者:秋山 副作者:小徐Cynical")
+about:Label("作者:秋山 小徐")
 about:Label("进群发最新脚本")
-about:Label("脚本有时间就会更新")
-about:Label("谢谢你的使用")
+about:Label("脚本持续更新中")
+about:Label("帮助者:小徐")
+about:Label("此脚本为免费,禁止一切倒卖🚫,倒卖全家死光")
+about:Label("谢谢你使用")
 
 UI:Toggle("移除UI辉光", "DHG", false, function(DHG)
     if DHG then
@@ -670,12 +671,11 @@ end)
 OSC:Button("河流脚本", function()
     loadstring(game:HttpGet("\104\116\116\112\115\58\47\47\112\97\115\116\101\98\105\110\46\99\111\109\47\114\97\119\47\77\50\57\77\117\81\115\80"))()
 end)
-OSC:Button("CyOvO被遗弃脚本", function()
-getgenv().XuTnT="作者QQ3253549307"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lxmyysd/ranchun666/refs/heads/main/Cy%E7%9A%84FSK.lua.txt"))()
-OSC:Button("CyOvO脚本中心1", function()
-getgenv().XuTnT="作者QQ3253549307"
-loadstring(game:HttpGet("https://raw.githubusercontent.com/lxmyysd/ranchun666/refs/heads/main/CyOVO.lua.txt"))()"))()
+OSC:Button("BS脚本（偷云脚本）", function()
+    loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,71,57,103,117,122,88,100,75})end)())))()--BS
+end)
+OSC:Button("地岩脚本", function()
+     loadstring("\108\111\97\100\115\116\114\105\110\103\40\103\97\109\101\58\72\116\116\112\71\101\116\40\34\104\116\116\112\115\58\47\47\114\97\119\46\103\105\116\104\117\98\117\115\101\114\99\111\110\116\101\110\116\46\99\111\109\47\98\98\97\109\120\98\98\97\109\120\98\98\97\109\120\47\99\111\100\101\115\112\97\99\101\115\45\98\108\97\110\107\47\109\97\105\110\47\37\69\55\37\57\57\37\66\68\34\41\41\40\41")()
 end)
 OSC:Button("波奇塔脚本", function()
     loadstring(game:HttpGet(utf8.char((function() return table.unpack({104,116,116,112,115,58,47,47,112,97,115,116,101,98,105,110,46,99,111,109,47,114,97,119,47,113,109,55,76,121,119,82,117})end)())))()
